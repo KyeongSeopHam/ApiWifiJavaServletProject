@@ -1,0 +1,1 @@
+http://openapi.seoul.go.kr:8088/6566634150727564363264436a4d79/json/TbPublicWifiInfo/1/5/

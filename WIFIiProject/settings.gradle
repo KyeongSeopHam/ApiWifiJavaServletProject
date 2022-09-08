@@ -1,0 +1,4 @@
+rootProject.name = "WIFIiProject"
+include 'src:main:lib'
+findProject(':src:main:lib')?.name = 'lib'
+

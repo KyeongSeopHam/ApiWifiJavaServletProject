@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    junitVersion = '5.8.2'
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    // 버전다운
+    implementation group: 'org.apache.tomcat', name: 'tomcat-servlet-api', version: '9.0.65'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.30'
+
+    implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '3.0.7'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.9.0'
+    implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor('org.projectlombok:lombok:1.18.24')
+
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+    //
+
+
+
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
