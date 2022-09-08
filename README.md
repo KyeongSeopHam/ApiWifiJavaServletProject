@@ -8,14 +8,14 @@
 
 
 
-### 💡 주요기능
+## 💡 주요기능
 1. 공공 와이파이 정보 가져오기 기능 구현 (서울 열린데이터 광장 API 이용) 
 2. 내 위치 정보를 임력하면 가까운 위치에 있는 와이파이 정보 20개 보여주는 기능 구현
 3. 내가 입력한 위치정보에 대해서 조회하는 시점에 DB에 히스토리를 저장 및 보여주는 기능 구현
 4. DB CRUD 적용 (JDBC_MariaDB) 
 
 
-### 💡 사용 기술
+## 💡 사용 기술
 
 ![68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176612d303037333936](https://user-images.githubusercontent.com/43702182/189212938-b87173c1-47ae-411c-916f-5431af631439.svg)
 ![68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4170616368253230546f6d6361742d463844433735](https://user-images.githubusercontent.com/43702182/189212944-9a709fc5-ea05-45be-ae06-3137e0188ed4.svg)
@@ -47,4 +47,22 @@
   * lombok:1.18.24 , tomcat-servlet-api 9.0.65 , okhttp:4.9.3
 
 
-- 개발 환경 : intelliJ IDEA, Gradle, Lombok , JDBC
+- 개발 환경 
+   - intelliJ IDEA, Gradle, Lombok , JDBC
+   
+
+## 🐱페이지별 상세 기능
+- ERD 시각화
+
+  ![image](https://user-images.githubusercontent.com/43702182/189228323-96e2c06e-3be5-473f-8e30-d5fc0f0e9b04.png)
+
+
+|테스트세트스|토스트토스트|
+|------|---|
+|![ezgif com-gif-maker](https://user-images.githubusercontent.com/43702182/189227106-90721df3-a770-4487-80ee-9631ef015a46.gif)|![ezgif com-gif-maker](https://user-images.githubusercontent.com/43702182/189227106-90721df3-a770-4487-80ee-9631ef015a46.gif)|
+|회원가입 시 유저 네임 중복 체크 기능| 토스트토스트|
+|![ezgif com-gif-maker](https://user-images.githubusercontent.com/43702182/189227106-90721df3-a770-4487-80ee-9631ef015a46.gif)|![ezgif com-gif-maker](https://user-images.githubusercontent.com/43702182/189227106-90721df3-a770-4487-80ee-9631ef015a46.gif)|
+
+
+
+
