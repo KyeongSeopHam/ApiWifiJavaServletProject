@@ -56,13 +56,41 @@
 
   ![image](https://user-images.githubusercontent.com/43702182/189228323-96e2c06e-3be5-473f-8e30-d5fc0f0e9b04.png)
 
+## 💡 주요기능
+1. 공공 와이파이 정보 가져오기 기능 구현 (서울 열린데이터 광장 API 이용) 
+2. 내 위치 정보를 임력하면 가까운 위치에 있는 와이파이 정보 20개 보여주는 기능 구현
 
-|테스트세트스|토스트토스트|
+
+|데이터베이스 로직|쿼리 들어갔는지 체크|
 |------|---|
-|![ezgif com-gif-maker](https://user-images.githubusercontent.com/43702182/189227106-90721df3-a770-4487-80ee-9631ef015a46.gif)|![ezgif com-gif-maker](https://user-images.githubusercontent.com/43702182/189227106-90721df3-a770-4487-80ee-9631ef015a46.gif)|
-|회원가입 시 유저 네임 중복 체크 기능| 토스트토스트|
-|![ezgif com-gif-maker](https://user-images.githubusercontent.com/43702182/189227106-90721df3-a770-4487-80ee-9631ef015a46.gif)|![ezgif com-gif-maker](https://user-images.githubusercontent.com/43702182/189227106-90721df3-a770-4487-80ee-9631ef015a46.gif)|
+|![Animation2](https://user-images.githubusercontent.com/43702182/189230408-787f3e2b-ca58-47e0-b53d-e687ec380953.gif)|![Animation](https://user-images.githubusercontent.com/43702182/189230009-a18cf920-74f0-4b33-9aa6-825a3eb0324d.gif)|
+|처음 해보는 Junit 단위테스트|Data transfer object |
+|![junit](https://user-images.githubusercontent.com/43702182/189232081-c097b1af-253f-4a1d-b9d5-990a52dcac93.gif)|![dto](https://user-images.githubusercontent.com/43702182/189232092-3d30da0e-32c1-49cd-a1c8-03cc55a01ab5.gif)|
 
+## 💡 주요기능
+1. 히스토리 리스트 시각화
+2. 히스토리 삭제 기능 구현
+3. 내가 입력한 위치정보에 대해서 조회하는 시점에 DB에 히스토리를 저장 및 보여주는 기능 구현
+
+| 와이파이 정보 가져오기|내 위치 가져오기, 근처 Wifi 검색|
+|------|---|
+|![locationLoding](https://user-images.githubusercontent.com/43702182/189233709-2997fd0d-ceb8-4fc8-a38f-91e96dc6968e.gif)|![locationSle](https://user-images.githubusercontent.com/43702182/189233715-b458caca-760d-4e7d-b549-4ab1fcbb7312.gif)|
+|위치 히스토리 목록| 히스토리 목록 삭제 테스트 |
+|![locationList](https://user-images.githubusercontent.com/43702182/189233703-b3c707bc-f53b-4daf-a911-7da7281d5e44.gif)|![locationRemove](https://user-images.githubusercontent.com/43702182/189233712-05b2e8fa-e8a0-46c9-a2c1-8c0928b5040f.gif)|
+
+
+## 💡 🐱프로젝트 리뷰 및 개선방향 
+
+
+-   README.md 작성하는법을 처음배워배움.(재미있었음) , GIT을 꼭 배우자.
+-   첫 프로젝트라 걱정도 많았지만 .. 어찌어찌 돌아가네요. 처음에  어디서부터 진행해야할지 많이 막막했습니다.
+-  여기서 느낀점은 실전은 다르구나.. 이 작은 프로젝트 조차도 못하는 제 자신을 보며 열심히 해야겠구나.. 원인을 찾자라고 생각(결론 기초 및 실습)
+-  그리고 객체지향적인 사고능력이 많이 부족하다는걸 느꼈습니다. ( 객체지향의 사실과 오해) 책 매일 읽도록 노력하기. 
+-  자바, 웹 , 그리고 DB를 사용,라이브러리,셋팅 등  한층더 스킬 업  [Api 프로젝트를 마치며 (미완성 회고)](https://nabi1993.tistory.com/88)  
+-  지금 짠 구조는  컨트롤러, 모델 , 뷰로 구성된건 맞지만 옛날 스타일 -> POJO (MVC) 형태로 추후 리팩토링 예정 
+-  약 2주뒤에 스프링으로 넘어갈텐데 그전에 [기초 탄탄하게 쌓기](https://nabi1993.tistory.com/89)
+-  항상 받아드리는 자세로, 해야할것이 산더미라 이렇게 지금은 물러나지만 추후 꼭 리팩토링을 해볼것이다.
+-   옆에서 항상 도움을 주시는 동훈님께 감사하고 배워야할점이 많다는걸 매일같이  깨닳는중 
 
 
 
