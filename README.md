@@ -50,22 +50,36 @@
 - 개발 환경 
    - intelliJ IDEA, Gradle, Lombok , JDBC
    
+   
+   
+   
+   ## 💡 ERD
+
+|ERD|API 파싱부분|
+|------|---|
+|![Animation2](https://user-images.githubusercontent.com/43702182/189230408-787f3e2b-ca58-47e0-b53d-e687ec380953.gif)|![api가져오는부분](https://user-images.githubusercontent.com/43702182/189246046-1b814a93-d917-4c2b-9c5f-25fca701b344.PNG)|
+|가까운 WIFI 20개뽑기 |저장된 히스토리 리스트목록, 목록삭제 |
+|![20개근처가까운wifi리스트](https://user-images.githubusercontent.com/43702182/189246052-f74572d3-112c-48ad-8567-aaf272ee9b04.PNG)|![히스토리목록및삭제](https://user-images.githubusercontent.com/43702182/189246051-1ecaf92b-a15e-4d34-b3ea-639bf7125cde.PNG)|
+
+
+   
 
 ## 🐱페이지별 상세 기능
 - ERD 시각화
 
-  ![image](https://user-images.githubusercontent.com/43702182/189228323-96e2c06e-3be5-473f-8e30-d5fc0f0e9b04.png)
-
-## 💡 주요기능
-1. 공공 와이파이 정보 가져오기 기능 구현 (서울 열린데이터 광장 API 이용) 
-2. 내 위치 정보를 임력하면 가까운 위치에 있는 와이파이 정보 20개 보여주는 기능 구현
-
-
 |데이터베이스 로직|쿼리 들어갔는지 체크|
 |------|---|
-|![Animation2](https://user-images.githubusercontent.com/43702182/189230408-787f3e2b-ca58-47e0-b53d-e687ec380953.gif)|![Animation](https://user-images.githubusercontent.com/43702182/189230009-a18cf920-74f0-4b33-9aa6-825a3eb0324d.gif)|
+|  ![image](https://user-images.githubusercontent.com/43702182/189228323-96e2c06e-3be5-473f-8e30-d5fc0f0e9b04.png)|![Animation](https://user-images.githubusercontent.com/43702182/189230009-a18cf920-74f0-4b33-9aa6-825a3eb0324d.gif)|
 |처음 해보는 Junit 단위테스트|Data transfer object |
 |![junit](https://user-images.githubusercontent.com/43702182/189232081-c097b1af-253f-4a1d-b9d5-990a52dcac93.gif)|![dto](https://user-images.githubusercontent.com/43702182/189232092-3d30da0e-32c1-49cd-a1c8-03cc55a01ab5.gif)|
+
+
+
+
+
+
+
+
 
 ## 💡 주요기능
 1. 히스토리 리스트 시각화
