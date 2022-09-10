@@ -55,7 +55,7 @@
    
    ## 💡 ERD
 
-|ERD|API 파싱부분|
+|Json|API 파싱부분|
 |------|---|
 |![Animation2](https://user-images.githubusercontent.com/43702182/189230408-787f3e2b-ca58-47e0-b53d-e687ec380953.gif)|![api가져오는부분](https://user-images.githubusercontent.com/43702182/189246046-1b814a93-d917-4c2b-9c5f-25fca701b344.PNG)|
 |가까운 WIFI 20개뽑기 |저장된 히스토리 리스트목록, 목록삭제 |
