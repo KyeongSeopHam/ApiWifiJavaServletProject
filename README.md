@@ -25,6 +25,7 @@
 ![HTML](https://user-images.githubusercontent.com/43702182/189214960-8813240f-49d6-4c76-888e-666d1b8286d2.svg)
 ![CSS](https://user-images.githubusercontent.com/43702182/189214959-a83e2a19-d446-4116-b982-d2b17f22d806.svg)
 ![자바스크립트](https://user-images.githubusercontent.com/43702182/189214954-fc2e7e07-a129-4f71-aeb8-4d4bd90a01f7.svg)
+![그레이들](https://user-images.githubusercontent.com/43702182/190194765-941ef188-383c-441c-bad9-716d63f64f9a.svg)
 ![깃허브](https://user-images.githubusercontent.com/43702182/189214961-5ae8258f-5df1-45b5-9eee-b9eaee2f034f.svg)
 
 -개발 언어: Java 8, HTML 5, CSS, JavaScript
